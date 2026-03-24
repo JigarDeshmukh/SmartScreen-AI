@@ -1,0 +1,53 @@
+{
+  "cv_auc_mean": 0.8728,
+  "cv_auc_std": 0.0043,
+  "cv_precision_mean": 0.6695,
+  "cv_recall_mean": 0.3651,
+  "cv_f1_mean": 0.4724,
+  "train_auc_mean": 0.8906,
+  "overfit_gap": 0.0178,
+  "top_features": [
+    [
+      "required_skill_match_ratio",
+      0.3134432621733904
+    ],
+    [
+      "years_experience",
+      0.25561951257290827
+    ],
+    [
+      "jd_resume_semantic_similarity",
+      0.19891098548121158
+    ],
+    [
+      "role_similarity_score",
+      0.06487758482390832
+    ],
+    [
+      "skill_semantic_score",
+      0.048040784076222226
+    ],
+    [
+      "has_tier1_company_exp",
+      0.04300357783123856
+    ],
+    [
+      "has_github",
+      0.02399255870013152
+    ],
+    [
+      "career_trajectory_score",
+      0.015045918531711066
+    ],
+    [
+      "university_tier",
+      0.013448437293578079
+    ],
+    [
+      "n_companies",
+      0.009055580422731996
+    ]
+  ],
+  "n_samples": 50000,
+  "positive_rate": 0.161
+}

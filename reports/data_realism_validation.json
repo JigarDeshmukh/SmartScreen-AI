@@ -1,0 +1,45 @@
+{
+  "n_records": 200000,
+  "n_features": 44,
+  "checks": {
+    "class_balance": {
+      "shortlist_rate": "47.5%",
+      "realistic_range": "5-20% (industry benchmark)",
+      "status": "WARNING",
+      "fix_suggestion": "Apply stricter thresholding or resample to ~15% positive rate"
+    },
+    "feature_target_correlation": {
+      "top_5_correlated": {
+        "current_ctc": 0.5843,
+        "expected_ctc": 0.5755,
+        "years_experience": 0.5339,
+        "graduation_year": -0.518,
+        "age": 0.4903
+      },
+      "high_correlation_features": [
+        [
+          "years_experience",
+          0.534
+        ],
+        [
+          "graduation_year",
+          -0.518
+        ],
+        [
+          "current_ctc",
+          0.584
+        ],
+        [
+          "expected_ctc",
+          0.575
+        ]
+      ],
+      "status": "WARNING"
+    },
+    "distributions": {
+      "years_experience": {
+        "mean": 3.54,
+        "std": 3.44,
+        "ks_stat": 0.1523,
+        "ks_p_value": 0.0,
+        "is_normal": 

@@ -1,0 +1,52 @@
+{
+  "total": 64,
+  "shortlisted": 25,
+  "flags": [
+    "university_tier_1vs3: DIR=0.439 \u2014 FLAGGED \u2014 possible bias",
+    "experience_senior_vs_junior: DIR=529.412 \u2014 FLAGGED \u2014 possible bias"
+  ],
+  "details": {
+    "university_tier_1vs3": {
+      "group_a": "[1]",
+      "rate_a": "17%",
+      "n_a": 6,
+      "group_b": "[3]",
+      "rate_b": "38%",
+      "n_b": 29,
+      "disparate_impact_ratio": 0.439,
+      "status": "FLAGGED \u2014 possible bias"
+    },
+    "experience_senior_vs_junior": {
+      "group_a": "<function bias_audit.<locals>.<lambda> a",
+      "rate_a": "53%",
+      "n_a": 34,
+      "group_b": "<function bias_audit.<locals>.<lambda> a",
+      "rate_b": "0%",
+      "n_b": 17,
+      "disparate_impact_ratio": 529.412,
+      "status": "FLAGGED \u2014 possible bias"
+    },
+    "city_metro_vs_nonmetro": {
+      "group_a": "['Bangalore', 'Mumbai', 'Delhi', 'Hydera",
+      "rate_a": "40%",
+      "n_a": 53,
+      "group_b": "['Pune', 'Not Found', 'Chennai', 'Ahmeda",
+      "rate_b": "36%",
+      "n_b": 11,
+      "disparate_impact_ratio": 1.09,
+      "status": "OK"
+    }
+  },
+  "overall_shortlist_rate": "39%",
+  "bias_free": false,
+  "verdict": "REVIEW NEEDED \u2014 2 bias flag(s)",
+  "intersectional": {},
+  "mitigation": [
+    "Review flagged groups manually before final decisions",
+    "Consider blind screening: remove university tier and city from scoring",
+    "Add gap_reason field \u2014 penalise gaps only when unexplained",
+    "Collect real hire/reject data to recalibrate weights fairly",
+    "Run post-hire analysis: compare model score vs actual performance at 6 months"
+  ],
+  "interview_answer": "I built a bias audit that runs automatically on every screening batch. It uses the EEOC 4/5ths rule (Disparate Impact Ratio) to check if the shortlist unfairly skews by university tier, employment gap, city, or experience level. Anything below DIR=0.80 is flagged for manual review. The model is a decision-support tool, not the final decision maker."
+}
