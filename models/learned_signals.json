@@ -1,0 +1,461 @@
+{
+  "learned_at": "2026-03-23T20:10:39.707934",
+  "signals": {
+    "data_ai": {
+      "learned_high": [
+        "databricks",
+        "tensorflow",
+        "nlp",
+        "vision",
+        "computer vision",
+        "deep",
+        "deep learning",
+        "xgboost",
+        "pandas",
+        "mlflow"
+      ],
+      "learned_medium": [
+        "keras",
+        "spark",
+        "airflow",
+        "hadoop",
+        "pytorch",
+        "lightgbm",
+        "numpy",
+        "feature engineering",
+        "feature",
+        "sagemaker"
+      ],
+      "learned_low": [
+        "aws sagemaker",
+        "scikit learn",
+        "scikit",
+        "learn",
+        "ml",
+        "data engineer",
+        "learning",
+        "learning engineer",
+        "bi",
+        "power bi"
+      ]
+    },
+    "software": {
+      "learned_high": [
+        "java",
+        "developer",
+        "backend developer",
+        "backend",
+        "systems engineer",
+        "node.js",
+        "swift",
+        "rust",
+        "react",
+        "microservices"
+      ],
+      "learned_medium": [
+        "angular",
+        "mongodb",
+        "typescript",
+        "vue.js",
+        "rest api",
+        "rest",
+        "mysql",
+        "redis",
+        "flask",
+        "django"
+      ],
+      "learned_low": [
+        "fastapi",
+        "javascript",
+        "graphql",
+        "postgresql",
+        "kotlin",
+        "git",
+        "spring",
+        "spring boot",
+        "boot",
+        "aws developer"
+      ]
+    },
+    "devops": {
+      "learned_high": [
+        "kubernetes",
+        "infrastructure",
+        "terraform",
+        "linux",
+        "nginx",
+        "argocd",
+        "prometheus",
+        "pulumi",
+        "grafana",
+        "gcp"
+      ],
+      "learned_medium": [
+        "jenkins",
+        "ansible",
+        "helm",
+        "actions",
+        "github",
+        "github actions",
+        "ci/cd",
+        "as",
+        "as code",
+        "code"
+      ],
+      "learned_low": [
+        "infrastructure as",
+        "devops",
+        "devops engineer",
+        "infrastructure engineer",
+        "cloud engineer",
+        "platform",
+        "platform engineer",
+        "kubernetes engineer",
+        "cloud",
+        "sre"
+      ]
+    },
+    "security": {
+      "learned_high": [
+        "security",
+        "soc",
+        "ethical",
+        "penetration",
+        "ceh",
+        "cissp",
+        "metasploit",
+        "iam",
+        "siem",
+        "cryptography"
+      ],
+      "learned_medium": [
+        "nmap",
+        "owasp",
+        "burp",
+        "suite",
+        "burp suite",
+        "wireshark",
+        "threat",
+        "threat modelling",
+        "ethical hacking",
+        "hacking"
+      ],
+      "learned_low": [
+        "penetration testing",
+        "network",
+        "network security",
+        "trust",
+        "zero trust",
+        "zero",
+        "security engineer",
+        "security analyst",
+        "soc analyst",
+        "ethical hacker"
+      ]
+    },
+    "product": {
+      "learned_high": [
+        "scrum",
+        "product",
+        "prioritisation",
+        "brd",
+        "kpi",
+        "jira",
+        "confluence",
+        "prd",
+        "okr",
+        "agile"
+      ],
+      "learned_medium": [
+        "stakeholder management",
+        "stakeholder",
+        "roadmap",
+        "product roadmap",
+        "to",
+        "to market",
+        "go to",
+        "market",
+        "scrum product",
+        "cspo"
+      ],
+      "learned_low": [
+        "pmp",
+        "pragmatic",
+        "pragmatic marketing",
+        "owner",
+        "certified scrum",
+        "product owner",
+        "operations manager",
+        "program manager",
+        "program",
+        "business analyst"
+      ]
+    },
+    "hr": {
+      "learned_high": [
+        "hr",
+        "payroll",
+        "benefits",
+        "compensation",
+        "acquisition",
+        "talent acquisition",
+        "talent",
+        "development",
+        "partner",
+        "business partner"
+      ],
+      "learned_medium": [
+        "hr business",
+        "workday",
+        "hris",
+        "attrition",
+        "payroll management",
+        "statutory compliance",
+        "statutory",
+        "compliance",
+        "recruitment",
+        "hr operations"
+      ],
+      "learned_low": [
+        "performance management",
+        "employee engagement",
+        "employee",
+        "engagement",
+        "people",
+        "people management",
+        "onboarding",
+        "hr analytics",
+        "sap hr",
+        "labour"
+      ]
+    },
+    "finance": {
+      "learned_high": [
+        "portfolio",
+        "risk",
+        "financial",
+        "bloomberg",
+        "derivatives",
+        "portfolio management",
+        "budgeting",
+        "valuation",
+        "audit",
+        "dcf"
+      ],
+      "learned_medium": [
+        "risk management",
+        "gaap",
+        "tally",
+        "ifrs",
+        "accounting",
+        "financial modelling",
+        "fixed",
+        "fixed income",
+        "income",
+        "cfa level"
+      ],
+      "learned_low": [
+        "cfa",
+        "level",
+        "accountant",
+        "quantitative analyst",
+        "quantitative",
+        "portfolio manager",
+        "investment banker",
+        "banker",
+        "investment",
+        "risk analyst"
+      ]
+    },
+    "marketing": {
+      "learned_high": [
+        "ads",
+        "marketing",
+        "hubspot",
+        "google ads",
+        "google analytics",
+        "seo",
+        "content",
+        "brand",
+        "google",
+        "salesforce"
+      ],
+      "learned_medium": [
+        "copywriting",
+        "sem",
+        "crm",
+        "media",
+        "social media",
+        "social",
+        "content marketing",
+        "brand strategy",
+        "meta ads",
+        "email"
+      ],
+      "learned_low": [
+        "email marketing",
+        "meta",
+        "blueprint",
+        "meta blueprint",
+        "hubspot marketing",
+        "analytics",
+        "strategy",
+        "marketer",
+        "performance marketer",
+        "seo specialist"
+      ]
+    },
+    "design": {
+      "learned_high": [
+        "designer",
+        "ux",
+        "design",
+        "adobe",
+        "ui",
+        "interaction",
+        "illustrator",
+        "sketch",
+        "invision",
+        "typography"
+      ],
+      "learned_medium": [
+        "framer",
+        "photoshop",
+        "prototyping",
+        "accessibility",
+        "ux research",
+        "motion",
+        "motion design",
+        "xd",
+        "adobe xd",
+        "design systems"
+      ],
+      "learned_low": [
+        "ui design",
+        "adobe certified",
+        "google ux",
+        "ux design",
+        "design foundation",
+        "interaction design",
+        "foundation",
+        "product designer",
+        "interaction designer",
+        "ux designer"
+      ]
+    },
+    "operations": {
+      "learned_high": [
+        "sigma",
+        "six sigma",
+        "six",
+        "procurement",
+        "logistics",
+        "chain",
+        "supply",
+        "supply chain",
+        "erp",
+        "vendor management"
+      ],
+      "learned_medium": [
+        "vendor",
+        "operations research",
+        "inventory management",
+        "inventory",
+        "lean",
+        "process improvement",
+        "improvement",
+        "process",
+        "belt",
+        "operations analyst"
+      ],
+      "learned_low": [
+        "logistics manager",
+        "procurement specialist",
+        "chain manager",
+        "operations",
+        "cltd",
+        "apics",
+        "cpim",
+        "sigma green",
+        "green",
+        "green belt"
+      ]
+    },
+    "research": {
+      "learned_high": [
+        "phd",
+        "latex",
+        "grants",
+        "stata",
+        "spss",
+        "matlab",
+        "research methodology",
+        "methodology",
+        "surveys",
+        "statistical modelling"
+      ],
+      "learned_medium": [
+        "statistical",
+        "collection",
+        "data collection",
+        "systematic review",
+        "review",
+        "systematic",
+        "publications",
+        "academic writing",
+        "academic",
+        "writing"
+      ],
+      "learned_low": [
+        "professor",
+        "research analyst",
+        "data research",
+        "researcher",
+        "phd researcher",
+        "doc",
+        "post doc",
+        "post",
+        "research fellowship",
+        "fellowship"
+      ]
+    },
+    "emerging": {
+      "learned_high": [
+        "ethereum",
+        "unity",
+        "ros",
+        "openai",
+        "openai api",
+        "ar/vr",
+        "iot",
+        "blockchain",
+        "web",
+        "prompt"
+      ],
+      "learned_medium": [
+        "solidity",
+        "arduino",
+        "langchain",
+        "mqtt",
+        "web js",
+        "js",
+        "unreal",
+        "engine",
+        "unreal engine",
+        "raspberry"
+      ],
+      "learned_low": [
+        "pi",
+        "raspberry pi",
+        "prompt engineering",
+        "vector",
+        "vector databases",
+        "databases",
+        "ethereum developer",
+        "ros developer",
+        "unity certified",
+        "api"
+      ]
+    }
+  }
+}

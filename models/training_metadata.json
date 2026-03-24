@@ -1,0 +1,201 @@
+{
+  "trained_at": "2026-03-23T20:10:21.317751",
+  "best_model": "xgboost",
+  "global_auc": 0.9916,
+  "results": {
+    "global": {
+      "model": "xgboost",
+      "val_auc": 0.9916,
+      "n": 200000
+    },
+    "data_ai": {
+      "model": "xgboost",
+      "val_auc": 0.9898,
+      "n": 31620
+    },
+    "software": {
+      "model": "xgboost",
+      "val_auc": 0.9886,
+      "n": 21036
+    },
+    "devops": {
+      "model": "xgboost",
+      "val_auc": 0.9875,
+      "n": 15655
+    },
+    "security": {
+      "model": "xgboost",
+      "val_auc": 0.9899,
+      "n": 15782
+    },
+    "product": {
+      "model": "xgboost",
+      "val_auc": 0.9892,
+      "n": 15601
+    },
+    "hr": {
+      "model": "xgboost",
+      "val_auc": 0.9853,
+      "n": 15806
+    },
+    "finance": {
+      "model": "xgboost",
+      "val_auc": 0.9861,
+      "n": 15887
+    },
+    "marketing": {
+      "model": "xgboost",
+      "val_auc": 0.9906,
+      "n": 15789
+    },
+    "design": {
+      "model": "xgboost",
+      "val_auc": 0.9866,
+      "n": 13357
+    },
+    "operations": {
+      "model": "xgboost",
+      "val_auc": 0.9877,
+      "n": 10669
+    },
+    "research": {
+      "model": "xgboost",
+      "val_auc": 0.9859,
+      "n": 10541
+    },
+    "emerging": {
+      "model": "xgboost",
+      "val_auc": 0.989,
+      "n": 18257
+    }
+  },
+  "domain_models": {
+    "data_ai": {
+      "model": "xgboost",
+      "val_auc": 0.9898,
+      "n": 31620,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\data_ai.pkl"
+    },
+    "software": {
+      "model": "xgboost",
+      "val_auc": 0.9886,
+      "n": 21036,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\software.pkl"
+    },
+    "devops": {
+      "model": "xgboost",
+      "val_auc": 0.9875,
+      "n": 15655,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\devops.pkl"
+    },
+    "security": {
+      "model": "xgboost",
+      "val_auc": 0.9899,
+      "n": 15782,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\security.pkl"
+    },
+    "product": {
+      "model": "xgboost",
+      "val_auc": 0.9892,
+      "n": 15601,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\product.pkl"
+    },
+    "hr": {
+      "model": "xgboost",
+      "val_auc": 0.9853,
+      "n": 15806,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\hr.pkl"
+    },
+    "finance": {
+      "model": "xgboost",
+      "val_auc": 0.9861,
+      "n": 15887,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\finance.pkl"
+    },
+    "marketing": {
+      "model": "xgboost",
+      "val_auc": 0.9906,
+      "n": 15789,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\marketing.pkl"
+    },
+    "design": {
+      "model": "xgboost",
+      "val_auc": 0.9866,
+      "n": 13357,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\design.pkl"
+    },
+    "operations": {
+      "model": "xgboost",
+      "val_auc": 0.9877,
+      "n": 10669,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\operations.pkl"
+    },
+    "research": {
+      "model": "xgboost",
+      "val_auc": 0.9859,
+      "n": 10541,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\research.pkl"
+    },
+    "emerging": {
+      "model": "xgboost",
+      "val_auc": 0.989,
+      "n": 18257,
+      "path": "C:\\Users\\jigar\\OneDrive\\Desktop\\Ml project\\Hr resume\\models\\domain_models\\emerging.pkl"
+    }
+  },
+  "feature_names": [
+    "age",
+    "years_experience",
+    "gpa",
+    "graduation_year",
+    "n_tech_skills",
+    "n_soft_skills",
+    "n_certifications",
+    "n_companies",
+    "avg_tenure_years",
+    "n_projects",
+    "github_repos",
+    "kaggle_medals",
+    "n_publications",
+    "resume_pages",
+    "keyword_density",
+    "employment_gap_months",
+    "current_ctc",
+    "expected_ctc",
+    "notice_period_days",
+    "role_domain",
+    "skill_richness_score",
+    "edu_quality_score",
+    "online_presence_score",
+    "exp_quality_score",
+    "ctc_hike_ratio",
+    "ctc_per_year_exp",
+    "project_density",
+    "cert_per_year",
+    "notice_urgency",
+    "readiness_score",
+    "composite_score",
+    "applied_role",
+    "degree",
+    "major",
+    "current_city",
+    "has_postgrad",
+    "has_python",
+    "has_sql",
+    "has_ml_libs",
+    "has_cloud",
+    "has_big_data",
+    "has_tier1_exp",
+    "has_github",
+    "has_kaggle",
+    "has_publication",
+    "has_cover_letter",
+    "willing_to_relocate",
+    "has_referral",
+    "university_tier",
+    "has_significant_gap",
+    "is_high_potential",
+    "is_overqualified"
+  ],
+  "n_domains": 12
+}

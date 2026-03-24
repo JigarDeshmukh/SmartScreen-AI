@@ -1,0 +1,22 @@
+{
+  "resumes_screened": 64,
+  "shortlisted": 25,
+  "filtered_out": 39,
+  "screening_reduction_pct": "60.9%",
+  "time": {
+    "manual_hours_would_take": 8.5,
+    "automated_minutes_took": 1.9,
+    "hours_saved": 8.5,
+    "speed_multiplier": "267.0x faster",
+    "cost_saved_inr": "\u20b94,250"
+  },
+  "quality": {
+    "model_precision": "65%",
+    "baseline_manual_precision": "40%",
+    "improvement": "+25%",
+    "bad_hires_prevented_est": 6.2,
+    "bad_hire_cost_saved_inr": "\u20b93,100,000"
+  },
+  "interview_answer": "For 64 resumes: saved 8.5 hours of screening time (\u20b94,250 cost), reduced the review pool by 60.9%, and improved screening precision from 40% to 65% \u2014 estimating 6.2 bad hires prevented (\u20b93,100,000 saved at industry cost-of-bad-hire benchmark). System is 267.0x faster than manual screening.",
+  "disclaimer": "Time/cost figures are estimates based on SHRM industry benchmarks. Real validation requires tracking actual hire outcomes at 3-6 months. The feedback_log.csv + retrain_on_feedback() function provides that loop."
+}
